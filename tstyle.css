@@ -1,0 +1,88 @@
+body {background-color: black;}
+
+/* frame */
+
+.lefti, .righti, .topi, .bottomi { 
+  background-color: white;
+  position: absolute;
+}
+
+.lefti, .righti { 
+  width: 5px;
+  top: 10px; 
+  bottom: 10px;
+}
+
+.lefti {left: 10px;}
+.righti {right: 10px;}
+
+.topi, .bottomi { 
+  height: 5px;
+  left: 10px;  
+  right: 10px; 
+}
+
+.topi {top: 10px;}
+.bottomi {bottom: 10px;}
+
+.all {
+    
+}
+
+/* logo */
+
+.logobg {
+    width: 464px;
+    height:220px;
+    background-color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;     
+    margin:-170px 0 0 -232px;
+
+}
+
+.logo, .tagline, .coming {
+    position: absolute;
+    left: 50%;
+}
+
+.logo {
+    font-family: 'Six Caps', sans-serif;
+    font-size:280px;
+    top:50%; 
+    color: black;    
+    margin:-250px 0 0 -240px;
+
+}
+
+
+.tagline {
+    font-family: 'Raleway', sans-serif;    
+    letter-spacing: 30px;
+    font-size: 16px;
+    color: white;
+    top:60%; 
+    margin:-8px 0 0 -232px;
+
+}
+
+/*coming soon*/
+
+.coming {
+    font-family: 'Raleway', sans-serif;    
+    font-size: 11px;
+    letter-spacing: 20px;
+    color: white;
+    top:80%; 
+    margin:-8px 0 0 -138px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+.all {width: 150%;}
+
+    
