@@ -82,6 +82,6 @@ body {background-color: black;}
 and (min-device-width : 320px)
 and (max-device-width : 1081px) {
 /* Styles */
-.logobg, .logo, .tagline, .coming {width: 150%;}
+.logobg, .logo, .tagline, .coming {width: 150%; height: 150%;}
 
     
