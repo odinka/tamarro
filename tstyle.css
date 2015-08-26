@@ -32,14 +32,13 @@ body {background-color: black;}
 /* logo */
 
 .logobg {
-    width: 464px;
-    height:220px;
+    width: 466px;
+    height:222px;
     background-color:white;
     position: absolute;
     top: 50%;
     left: 50%;     
-    margin:-170px 0 0 -232px;
-
+    margin:-171px 0 0 -233px;
 }
 
 .logo, .tagline, .coming {
@@ -81,8 +80,8 @@ body {background-color: black;}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 480px) {
+and (max-device-width : 1081px) {
 /* Styles */
-.all {width: 150%;}
+.logobg, .logo, .tagline, .coming {width: 150%;}
 
     
